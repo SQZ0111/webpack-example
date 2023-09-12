@@ -1,0 +1,3 @@
+# Ein strukturiertes Projekt
+
+Wir bauen einen recht einfachen Taschenrechner. Das Ziel dieser Aufgabe soll nicht die Komplexität der App sein, sondern das Verständnis für das Modularisierung von Code und die anschließende Konfiguration des Projekts mit *Webpack*. Dies wird den Einstieg und das Lesen und weitere Konfigurationsdateien wie die von *vite* oder die *package.json* des **node package managers**.
