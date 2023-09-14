@@ -1,5 +1,5 @@
 import { appendSelectList } from "./appendOperatorSelectListDom.js";
-import {listenChangeStoreValue} from "./listenOnchangeSelect.js";
+import {listenChangeStoreValue} from "./listenOnchangeSelectList.js";
 import { removeSelectList } from "./removeOperatorSelectListDom.js";
 
 
