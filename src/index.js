@@ -1,4 +1,4 @@
-import { performAddDataList } from "./modules/Operand_List_Management/performDataListOnlick.js";
+import { performAddOperatorSelectList } from "./modules/Operand_List_Management/performAddOperatorSelectListDom.js";
 import { writeCalculation } from "./modules/Arithmetic_Operations/writeCalculationResultOnElement.js";
 import "./styles/general.css";
 
@@ -9,7 +9,7 @@ function main() {
     
     calculateForm.addEventListener("submit",(e) => {
         e.preventDefault();
-        performAddDataList();
+        performAddOperatorSelectList();
     })
     calculateBtn.addEventListener("click",(e) => {
         writeCalculation();

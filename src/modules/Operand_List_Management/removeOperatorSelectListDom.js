@@ -1,4 +1,4 @@
-function removeDataList() {
+function removeSelectList() {
     try {
         const dataList = document.querySelector('.operatorList');
         const container = document.querySelector('.container');
@@ -8,4 +8,4 @@ function removeDataList() {
     }
 }
 
-export {removeDataList};
+export {removeSelectList};

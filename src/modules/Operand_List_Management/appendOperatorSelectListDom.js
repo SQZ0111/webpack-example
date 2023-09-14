@@ -1,13 +1,13 @@
-import { createNewDataList } from "./createDataList.js";
+import { createNewSelectList } from "./createOperatorSelectListDom.js";
 
-function appendDataList() {
+function appendSelectList() {
     try {
         const body = document.querySelector('.container');
-        const selectList = createNewDataList();
+        const selectList = createNewSelectList();
         body.appendChild(selectList)
     } catch(e) {
         console.log("Failed to append Datalist to body");
     }
 }
 
-export {appendDataList};
+export {appendSelectList};

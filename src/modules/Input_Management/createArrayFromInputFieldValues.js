@@ -4,7 +4,7 @@
  * @returns {Object} Object with values extracted from DOM Elements
  */
 
-function getValueFromInputfield(inputfields) {
+function createArrayFromValues(inputfields) {
     try {
         const extractedValues = [];
 
@@ -21,4 +21,4 @@ function getValueFromInputfield(inputfields) {
     }
 }
 
-export {getValueFromInputfield};
+export {createArrayFromValues};

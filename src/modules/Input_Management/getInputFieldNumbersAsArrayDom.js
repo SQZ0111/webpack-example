@@ -1,13 +1,13 @@
-import { getValueFromInputfield } from "./getValuesInputfieldModule.js";
+import { createArrayFromValues } from "./createArrayFromInputFieldValues.js";
 
-function getOperandValues() {
+function getInputFieldNumbersAsArray() {
     try {
         const calculateForm = document.querySelector("#calculateForm");
        
         calculateForm.addEventListener("submit",(e) => {
             e.preventDefault();
             const inputFields = document.querySelectorAll(".number-input");
-            const valuesFromInputs = getValueFromInputfield(inputFields);
+            const valuesFromInputs = createArrayFromValues(inputFields);
             console.log(valuesFromInputs);
             return valuesFromInputs;
     })
@@ -16,4 +16,4 @@ function getOperandValues() {
     }
 }
 
-export {getOperandValues};
+export {getInputFieldNumbersAsArray};

@@ -1,4 +1,4 @@
-function createDataListOptions() {
+function createNewSelectListOptions() {
     try {
         const operators = ['+','-','*','/'];
         const operatorOptions = [];
@@ -14,4 +14,4 @@ function createDataListOptions() {
     }
 }
 
-export {createDataListOptions};
+export {createNewSelectListOptions};
